@@ -1,12 +1,12 @@
 <div class="details index">
-	<h2><?php echo __('Details'); ?></h2>
+	<h2><?php echo __('”ï–ÚƒŠƒXƒg'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<thead>
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th><?php echo $this->Paginator->sort('detail_name'); ?></th>
+			<th><?php echo $this->Paginator->sort('ì¬“úŽž'); ?></th>
+			<th><?php echo $this->Paginator->sort('XV“úŽž'); ?></th>
+			<th><?php echo $this->Paginator->sort('”ï–Ú'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
 	</thead>
@@ -43,8 +43,8 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Detail'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Journals'), array('controller' => 'journals', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Journal'), array('controller' => 'journals', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('V‚µ‚¢”ï–Ú‚ð“o˜^'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('V‚µ‚¢o”ï‚ð“o˜^'), array('controller' => 'journals', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('‚¨‚±‚¸‚©‚¢’ ‚É–ß‚é'), array('controller' => 'journals', 'action' => 'index')); ?> </li>
 	</ul>
 </div>
