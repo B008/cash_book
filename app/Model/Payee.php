@@ -12,7 +12,7 @@ class Payee extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'payee_name';
 
 /**
  * Validation rules

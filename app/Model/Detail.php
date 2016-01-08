@@ -12,7 +12,7 @@ class Detail extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'id';
+	public $displayField = 'detail_name';
 
 /**
  * Validation rules
